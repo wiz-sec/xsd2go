@@ -24,6 +24,7 @@ import (
     {{- if .ContainsText }}
       Text string `xml:",chardata"`
     {{- end}}
+  InnerXml string `xml:",innerxml"`
   }
 
 {{end}}
